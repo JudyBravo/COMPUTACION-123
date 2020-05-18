@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="computacion-1o_2o_y3o" version="0.1.3">
+ <settings>
+  <title>COMPUTACIÓN-1º,2º y3º</title>
+  <revision description="created" date="5/17/20" />
+  <author name="JUDY MARIE BRAVO MERCADO" mail="judymarie.jmbm30@gmail.com" rol="PROFESORA DE COMPUTACIÓN" organization="U.E. NUEVO AMANECER" />
+  <description>
+   <p>TEMA&#xD;</p>
+   <p>CANCIÓN&#xD;</p>
+   <p>PRÁCTICA</p>
+  </description>
+  <descriptors area-codes="tec" level-codes="PRI" />
+  <skin file="@blue.xml" />
+  <cover file="PC.jpg" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>TEMA&#xD;</p>
+    <p>CANCIÓN&#xD;</p>
+    <p>PRÁCTICA</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="TEMA Nº3" />
+  <item id="HOJA 1" name="ENCENDER" />
+  <item id="HOJA 2" name="ESCRITORIO" />
+  <item id="HOJA 3" name="MOUSE" />
+  <item id="HOJA 4" name="PUNTERO" />
+  <item id="HOJA 5" name="WIND7" />
+  <item id="HOJA 6" name="WIND10" />
+  <item id="HOJA 7" name="TECLADO" />
+  <item id="HOJA 8" name="APAGAR WIND7" />
+  <item id="HOJA 9" name="APAGAR WIND10" />
+  <item id="HOJA 10" name="A PRACTICAR" />
+  <item id="HOJA 11" name="COMPUTADORA" />
+  <item id="HOJA 12" name="PARTES DE LA PC" />
+  <item id="HOJA 13" name="PART PC" />
+  <item id="HOJA 14" name="PARTES DE PC" />
+  <item id="HOJA 15" name="TECLADO PUZZLE" />
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="TEMA Nº3" code="">
+   <description>
+    <p>PROFESORA: JUDY MARIE BRAVO MERCADO&#xD;</p>
+    <p>&#xD;</p>
+    <p>U.E.: NUEVO AMANECER</p>
+   </description>
+   <messages>
+    <cell border="false" type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" border="0x00CCCC" />
+     </style>
+     <p>U.E.:NUEVO AMANECER - PROFESORA: JUDY MARIE BRAVO MERCADO</p>
+     <p>TEMA 3: COMPUTACIÓN BÁSICA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="CARATULA-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="ENCENDER" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="1º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="ESCRITORIO" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="2º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="MOUSE" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="9º-resized1.jpg">
+    <style />
+    <shaper class="@JigSaw" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="PUNTERO" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="3º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="WIND7" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="5º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="WIND10" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="6º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="TECLADO" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="4º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="APAGAR WIND7" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="7º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="APAGAR WIND10" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="8º-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="A PRACTICAR" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="150.0" cellHeight="100.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="72" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+     <p>A PRACTICAR...!!!</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="COMPUTADORA" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+     <p>RESUELVE EL PUZZLE</p>
+    </cell>
+    <cell border="true" type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0066FF" />
+     </style>
+     <p>MUY BIEN...!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="inform.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="PART PC" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0000CC" />
+     </style>
+     <p>ENCUENTRA LAS PALABRAS:</p>
+     <p>TECLADO, MOUSE, CPU, PARLANTES, COMPUTADORA, MONITOR, WINDOWS, IMPRESORA.</p>
+    </cell>
+    <cell border="true" type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>MUY BIEN...!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="12" columns="23" cellWidth="50.0" cellHeight="19.0" border="true">
+    <style>
+     <font family="Arial Black" size="17" />
+     <color background="0xFF6666" />
+    </style>
+    <text>
+     <row>ABC*********</row>
+     <row>DEF*********</row>
+     <row>GHI***M*****</row>
+     <row>IMPRESORA***</row>
+     <row>******N*****</row>
+     <row>******I*****</row>
+     <row>******T***MM</row>
+     <row>T***U*O***OO</row>
+     <row>*E*P**R***UU</row>
+     <row>**C*******WS</row>
+     <row>***L*****IEE</row>
+     <row>****A***N***</row>
+     <row>*****D*D****</row>
+     <row>******O*****</row>
+     <row>*****W******</row>
+     <row>****S*******</row>
+     <row>************</row>
+     <row>PARLANTES***</row>
+     <row>************</row>
+     <row>************</row>
+     <row>************</row>
+     <row>************</row>
+     <row>COMPUTADORA*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">COMPUTADORA</clue>
+    <clue id="1">TECLADO</clue>
+    <clue id="2">IMPRESORA</clue>
+    <clue id="3">CPU</clue>
+    <clue id="4">WINDOWS</clue>
+    <clue id="5">MOUSE</clue>
+    <clue id="6">PARLANTES</clue>
+    <clue id="7">MONITOR</clue>
+   </clues>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="PARTES DE LA PC" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFF00" />
+     </style>
+     <p>ASOCIA LA IMAGEN CON LA PALABRA CORRECTA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x003333" />
+     </style>
+     <p>MUY BIEN...!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x66FFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="150.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="monitor.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="TECLAU.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="mouse.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="CPU.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="laser.gif">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="PARLANTES.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFF9999" shadow="0x00FFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="117.0" cellHeight="71.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>MONITOR</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>TECLADO</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>RATÓN</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>CPU</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>IMPRESORA</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0x00CCFF" shadow="0x00FFFF" />
+     </style>
+     <p>PARLANTES</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="PARTES DE PC" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF00CC" />
+     </style>
+     <p>ENCUENTRA EL PAR</p>
+    </cell>
+    <cell border="true" type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x33FFFF" />
+     </style>
+     <p>MUY BIEN...!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="PARLANTES.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="TECLAU.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="laser.gif">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="monitor.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="CPU.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+    <cell image="mouse.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="TECLADO PUZZLE" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x3399FF" />
+     </style>
+     <p>ARMA EL TECLADO</p>
+    </cell>
+    <cell border="true" type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x66FF99" />
+     </style>
+     <p>MUY BIEN...!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x33FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="areas-del-teclado-2-638.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="laser.gif" file="laser.gif" animated="false" />
+  <media name="1º-resized.jpg" file="1o-resized.jpg" />
+  <media name="2º-resized.jpg" file="2o-resized.jpg" />
+  <media name="3º-resized.jpg" file="3o-resized.jpg" />
+  <media name="4º-resized.jpg" file="4o-resized.jpg" />
+  <media name="5º-resized.jpg" file="5o-resized.jpg" />
+  <media name="6º-resized.jpg" file="6o-resized.jpg" />
+  <media name="7º-resized.jpg" file="7o-resized.jpg" />
+  <media name="8º-resized.jpg" file="8o-resized.jpg" />
+  <media name="9º-resized1.jpg" file="9o-resized1.jpg" />
+  <media name="areas-del-teclado-2-638.jpg" file="areas-del-teclado-2-638.jpg" />
+  <media name="CARATULA-resized.jpg" file="caratula-resized.jpg" />
+  <media name="CPU.jpg" file="cpu.jpg" />
+  <media name="FONDO-resized.jpg" file="fondo-resized.jpg" />
+  <media name="inform.jpg" file="inform.jpg" />
+  <media name="monitor.jpg" file="monitor.jpg" />
+  <media name="mouse.jpg" file="mouse.jpg" />
+  <media name="PARLANTES.jpg" file="parlantes.jpg" />
+  <media name="PC.jpg" file="pc.jpg" />
+  <media name="TECLAU.jpg" file="teclau.jpg" />
+ </mediaBag>
+</JClicProject>
+

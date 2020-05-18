@@ -1,0 +1,63 @@
+{
+  "title": "COMPUTACIÓN-1º,2º y3º",
+  "author": "JUDY MARIE BRAVO MERCADO (PROFESORA DE COMPUTACIÓN)",
+  "date": "17/05/20",
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "es": "Tecnología"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)"
+  },
+  "description": {
+    "es": "TEMA\r\nCANCIÓN\r\nPRÁCTICA"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "PC.jpg",
+  "mainFile": "computacion-1o_2o_y3o.jclic",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 16,
+  "mediaFiles": 24,
+  "totalSize": 748241,
+  "files": [
+    "1o-resized.jpg",
+    "2o-resized.jpg",
+    "3o-resized.jpg",
+    "4o-resized.jpg",
+    "5o-resized.jpg",
+    "6o-resized.jpg",
+    "7o-resized.jpg",
+    "8o-resized.jpg",
+    "9o-resized1.jpg",
+    "areas-del-teclado-2-638.jpg",
+    "caratula-resized.jpg",
+    "computacion-1o_2o_y3o.jclic",
+    "computacion-1o_2o_y3o.jclic.js",
+    "cpu.jpg",
+    "favicon.ico",
+    "fondo-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "inform.jpg",
+    "laser.gif",
+    "monitor.jpg",
+    "mouse.jpg",
+    "parlantes.jpg",
+    "pc.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "teclau.jpg"
+  ]
+}
